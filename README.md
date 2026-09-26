@@ -1,29 +1,29 @@
 # LangChain Commercial Intelligence Agent
 
-Commercial intelligence agent built with LangChain to answer business questions using structured SQL data.
+Agente de inteligência comercial construído com LangChain para responder perguntas de negócio utilizando dados estruturados em SQL.
 
-> Work in progress — project currently under development.
+> Projeto em desenvolvimento.
 
-## Goal
+## Objetivo
 
-Build an AI agent capable of answering commercial questions in natural language by querying structured business data.
+Construir um agente de IA capaz de responder perguntas comerciais em linguagem natural consultando dados estruturados de negócio.
 
-## Architecture
+## Arquitetura
 
 User → LangChain Agent → SQL Tool → SQLite → Agent → Structured Output
 
-## Current progress
+## Progresso atual
 
-- [x] Project environment with uv
-- [x] Synthetic commercial dataset
-- [x] SQLite relational database
-- [x] Data validation
-- [ ] LangChain SQL integration
-- [ ] SQL tools
+- [x] Configuração do projeto com uv
+- [x] Dataset comercial sintético
+- [x] Banco relacional em SQLite
+- [x] Validação dos dados
+- [ ] Integração SQL com LangChain
+- [ ] SQL Tools
 - [ ] Agent
-- [ ] Structured output
-- [ ] LangSmith tracing
-- [ ] Automated tests
+- [ ] Structured Output
+- [ ] Observabilidade com LangSmith
+- [ ] Testes automatizados
 
 ## Stack
 
@@ -35,3 +35,16 @@ User → LangChain Agent → SQL Tool → SQLite → Agent → Structured Output
 - SQLAlchemy
 - uv
 - pytest
+
+## Próximos passos
+
+- Integrar o LangChain ao banco SQLite
+- Criar as ferramentas SQL
+- Construir o agente
+- Implementar saída estruturada
+- Adicionar tracing com LangSmith
+- Criar testes automatizados
+
+## Evolução futura
+
+Em uma segunda versão, o agente também poderá consultar documentos utilizando RAG, combinando dados estruturados em SQL com informações não estruturadas.
